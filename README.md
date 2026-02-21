@@ -3,7 +3,7 @@ A 2-player co-op puzzle game built in Unreal Engine 5.5. Players coordinate on p
 Playable over LAN and Steam.
 
 ## About
-Built on a UE5.2 multiplayer course, independently extended with LAN and Steam networking along with Steam Sockets integration.
+Built on a UE5.2 multiplayer course, independently extended with LAN and Steam networking via a custom GameInstanceSubsystem with Steam Sockets integration.
 
 ## Multiplayer Architecture
 Session Management is handled by a standalone GameInstanceSubsystem written in C++.
